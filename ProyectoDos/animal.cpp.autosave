@@ -1,0 +1,26 @@
+#include "animal.h"
+
+
+
+Animal::Animal(int _numeroPatas ,QString  _colorPelo, QString _genero, double _tamano, QString _nombre)
+{
+   numeroPatas = _numeroPatas;
+   colorPelo = _colorPelo;
+   _genero = genero;
+   tamano = _tamano;
+   nombre = _nombre;
+}      
+void Animal::comer()
+{
+    qDebug()<<"El animal come 3 veces al día";
+}
+
+void Animal::correr()
+{
+    qDebug()<<" El animal corre 5 km por hora ";
+}
+
+void Animal::nocturno()
+{
+    qDebug()<< "Solo sale de noche";
+}

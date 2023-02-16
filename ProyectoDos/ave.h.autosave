@@ -1,0 +1,13 @@
+#ifndef AVE_H
+#define AVE_H
+#include "animal.h"
+
+class Ave : public Animal
+{
+    
+public:
+    Ave();
+    
+};
+
+#endif // AVE_H

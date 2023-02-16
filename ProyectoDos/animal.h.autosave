@@ -1,0 +1,25 @@
+#ifndef ANIMAL_H
+#define ANIMAL_H
+#include <QDebug>
+
+class Animal
+{
+private:
+    //atributos
+    int numeroPatas;
+    QString colorPelo;
+    QString genero;
+    double tamano;
+    QString nombre;
+    
+public:
+    //Comportamientos
+    Animal(int, QString, QString, double, QString);
+    void comer();
+    void correr();
+    void nocturno();
+    
+    
+};
+
+#endif // ANIMAL_H
